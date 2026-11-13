@@ -1,0 +1,1 @@
+{"version":3,"file":"clientReady.d.ts","sourceRoot":"","sources":["../../src/events/clientReady.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,OAAO,MAAM,oBAAoB,CAAC;AAO9C,MAAM,CAAC,OAAO,OAAO,UAAU;IAC9B,MAAM,EAAE,OAAO,CAAC;gBAEJ,MAAM,EAAE,OAAO;IAIrB,GAAG,IAAI,OAAO,CAAC,IAAI,CAAC;CA2C1B"}
