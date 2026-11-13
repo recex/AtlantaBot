@@ -80,7 +80,10 @@ async function init(): Promise<void> {
 
 	// discord-player v7 no longer auto-loads extractors; register the default set
 	// so the music commands can resolve and stream sources.
+	// --- ALTERADO: registra o YoutubeExtractor ANTES dos extractors padrão ---
+	await client.player.extractors.register(YoutubeExtractor, {});
 	await client.player.extractors.loadMulti(DefaultExtractors);
+	// --- FIM DA ALTERAÇÃO ---
 	client.logger.log("Loaded discord-player default extractors.", "log");
 
 	await client.login(config.token);
